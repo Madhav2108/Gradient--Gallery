@@ -74,8 +74,6 @@ a:hover {
 	}
 }
 
-/* #Primary style
-================================================== */
 
 .hero-section {
     position: relative;
@@ -83,7 +81,7 @@ a:hover {
 	display: block;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url('http://www.ivang-design.com/svg-load/portfolio/photo.jpg');
+	background-image: url(../ing/bg.jpg);
 	background-size: cover;
 	background-position: center;
 	transform: scale(1) rotateX(0);
@@ -261,9 +259,9 @@ body.about-on .about-section {
 	z-index: 1;
 }
 .about-section img {
-    width: 100px;
-	height: 100px;
-	border-radius: 4px;
+    width: 200px;
+	height: 200px;
+	border-radius: 50%;
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
